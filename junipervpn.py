@@ -95,7 +95,7 @@ class JuniperVPN:
         print "Preparing to login."
         # If you didn't fill in the NT password, it'll prompt for that.
         if self.password == "":
-            self.password = raw_input("NT Password:  ")
+            self.password = raw_input("Password:  ")
         # Now it will prompt the user for the SecurID token
         self.pintoken = self.pin + raw_input("Token:  ")
 
