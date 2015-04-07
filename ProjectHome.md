@@ -1,0 +1,3 @@
+The Juniper VPN client works reasonably well on 64-bit linux with the aid of the Mad Scientist's junipernc script (http://mad-scientist.net/junipernc).  However, if your company uses two forms of authentication (PIN + SecurID Token as well as a password), then the login method is a bit more complicated.  Prior to executing this script, you'll need to convert the ncui.so library into an executable and obtain the SSL certificate from your login webpage following the instructions here:  http://makefile.com/.plan/2009/10/27/juniper-vpn-64-bit-linux-an-unsolved-mystery
+
+After the prerequisites have been fulfilled, the login steps are still fairly manual.  This script attempts to make them more automated.
